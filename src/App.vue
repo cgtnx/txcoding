@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <TestGit/>
     <Headers/>
     <HomeWrapper/>
     <Footer/>
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+  import TestGit from './views/TestGit'
   import Headers from './views/Header'
   import HomeWrapper from './views/HomeWrapper'
   import Footer from './views/Footer'
@@ -14,6 +16,7 @@
   export default {
     name: 'App',
     components: {
+      TestGit,
       Headers,
       HomeWrapper,
       Footer
